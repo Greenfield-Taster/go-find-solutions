@@ -35,7 +35,7 @@ const Navigation = () => {
               <Code2 className="w-6 h-6 text-white" />
             </div>
             <span className="font-orbitron text-xl font-bold neon-text">
-              ANASTASIIA
+              GO Solutions
             </span>
           </div>
 

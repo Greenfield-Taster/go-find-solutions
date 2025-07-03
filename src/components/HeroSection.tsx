@@ -105,7 +105,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-6">
         <div className="mb-8">
           <h1 className="font-orbitron text-6xl md:text-8xl font-black mb-4 neon-text animate-glow">
-            ANASTASIIA
+            GO FIND SOLUTIONS
           </h1>
           <div className="h-1 w-32 mx-auto bg-gradient-to-r from-neon-blue to-neon-pink rounded-full mb-6"></div>
           <p className="text-2xl md:text-3xl font-light text-white/80 mb-2">
