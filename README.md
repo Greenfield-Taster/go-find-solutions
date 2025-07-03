@@ -1,69 +1,94 @@
-# React + TypeScript + Vite
+# 🚀 GO Solutions - Creative Web Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, responsive portfolio website built with cutting-edge technologies.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Design**: Cyberpunk-inspired aesthetic with neon colors and glassmorphism
+- **Responsive**: Perfect on all devices from mobile to desktop
+- **Interactive**: Smooth animations and hover effects
+- **Fast**: Built with Vite for lightning-fast performance
+- **Accessible**: Follows web accessibility best practices
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** - Latest React with concurrent features
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **Vite** - Fast build tool and dev server
+- **Radix UI** - Accessible UI components
+- **Lucide React** - Beautiful icons
+- **React Router** - Client-side routing
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+```bash
+# Install dependencies
+npm install --legacy-peer-deps
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── components/
+│   ├── ui/              # Reusable UI components
+│   ├── HeroSection.tsx  # Landing section
+│   ├── Navigation.tsx   # Main navigation
+│   ├── ServicesSection.tsx
+│   ├── AboutSection.tsx
+│   └── ContactSection.tsx
+├── hooks/               # Custom React hooks
+├── lib/                 # Utilities and helpers
+├── pages/               # Page components
+├── types/               # TypeScript type definitions
+└── index.css           # Global styles
+```
+
+## 🎨 Design System
+
+### Colors
+- **Neon Blue**: `#00d2ff`
+- **Neon Pink**: `#ff006e`
+- **Neon Green**: `#00ff88`
+- **Dark Background**: `#0a0a0f`
+
+### Typography
+- **Headers**: Orbitron (futuristic monospace)
+- **Body**: Space Grotesk (modern sans-serif)
+
+### Effects
+- **Glassmorphism**: Translucent cards with backdrop blur
+- **Neon Glow**: CSS animations for cyberpunk feel
+- **Floating Elements**: Subtle animations for depth
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+
+## 🌐 Live Demo
+
+Visit the live site: [GO Solutions](https://greenfield-taster.github.io/go-find-solutions/)
+
+## 📄 License
+
+MIT License - feel free to use this project for your own portfolio!
+
+## 👤 Developer
+
+Created by **Anastasiia** - Creative Web Developer
+
+---
+
+Built with ❤️ using modern web technologies
