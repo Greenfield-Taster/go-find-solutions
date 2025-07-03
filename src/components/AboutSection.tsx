@@ -63,7 +63,7 @@ const AboutSection = () => {
                     </div>
                   </div>
                 </div>
-                <p className="text-neon-cyan font-orbitron font-bold">
+                <p className="text-neon-blue font-orbitron font-bold">
                   Always Learning
                 </p>
               </div>
@@ -77,10 +77,10 @@ const AboutSection = () => {
                   className="glass-card p-6 text-center hover:scale-105 transition-all duration-300 group"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="w-12 h-12 mx-auto mb-4 text-neon-cyan group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-12 h-12 mx-auto mb-4 text-neon-blue group-hover:scale-110 transition-transform duration-300">
                     <stat.icon className="w-full h-full" />
                   </div>
-                  <div className="font-orbitron text-2xl font-bold text-white mb-2 group-hover:text-neon-cyan transition-colors duration-300">
+                  <div className="font-orbitron text-2xl font-bold text-white mb-2 group-hover:text-neon-blue transition-colors duration-300">
                     {stat.number}
                   </div>
                   <div className="text-sm text-white/70 group-hover:text-white/90 transition-colors duration-300">

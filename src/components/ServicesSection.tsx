@@ -73,7 +73,7 @@ const ServicesSection = () => {
                 <service.icon className="w-full h-full text-white" />
               </div>
 
-              <h3 className="font-orbitron text-xl font-bold text-white mb-4 group-hover:text-neon-cyan transition-colors duration-300">
+              <h3 className="font-orbitron text-xl font-bold text-white mb-4 group-hover:text-neon-blue transition-colors duration-300">
                 {service.title}
               </h3>
 

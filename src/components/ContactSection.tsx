@@ -102,12 +102,12 @@ const ContactSection = () => {
                     href={item.href}
                     className="flex items-center space-x-4 p-4 rounded-xl hover:bg-white/5 transition-all duration-300 group"
                   >
-                    <div className="w-12 h-12 bg-gradient-to-br from-neon-blue to-neon-cyan rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 bg-gradient-to-br from-neon-blue to-neon-blue rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <item.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <p className="text-white/60 text-sm">{item.label}</p>
-                      <p className="text-white font-medium group-hover:text-neon-cyan transition-colors duration-300">
+                      <p className="text-white font-medium group-hover:text-neon-blue transition-colors duration-300">
                         {item.value}
                       </p>
                     </div>
@@ -129,7 +129,7 @@ const ContactSection = () => {
                     className="w-12 h-12 bg-gradient-to-br from-neon-pink to-neon-purple rounded-xl flex items-center justify-center hover:scale-110 transition-all duration-300 group"
                     aria-label={social.label}
                   >
-                    <social.icon className="w-6 h-6 text-white group-hover:text-neon-cyan transition-colors duration-300" />
+                    <social.icon className="w-6 h-6 text-white group-hover:text-neon-blue transition-colors duration-300" />
                   </a>
                 ))}
               </div>
@@ -141,7 +141,7 @@ const ContactSection = () => {
               <div className="absolute bottom-8 right-8 w-6 h-6 border-2 border-neon-pink/50 rounded-full animate-float-delayed"></div>
               <div className="glass-card p-8 text-center">
                 <div className="text-4xl mb-4">🚀</div>
-                <p className="text-neon-cyan font-orbitron font-bold">
+                <p className="text-neon-blue font-orbitron font-bold">
                   Let's Build Something Amazing!
                 </p>
               </div>

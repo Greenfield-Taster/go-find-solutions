@@ -31,7 +31,8 @@ const Index = () => {
       <footer className="py-8 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-white/60">
-            © 2024 Anastasiia. Crafted with ❤️ and cutting-edge technology.
+            © 2025 GO FIND SOLUIOINS. Crafted with ❤️ and cutting-edge
+            technology.
           </p>
         </div>
       </footer>

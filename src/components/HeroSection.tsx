@@ -111,7 +111,7 @@ const HeroSection = () => {
           <p className="text-2xl md:text-3xl font-light text-white/80 mb-2">
             Creative Web Developer
           </p>
-          <p className="text-lg text-neon-cyan font-space">
+          <p className="text-lg text-neon-blue font-space">
             Building the Future of Digital Experiences
           </p>
         </div>

@@ -120,4 +120,40 @@ All colors MUST be HSL.
   .animate-float-delayed-2 {
     animation: float 6s ease-in-out infinite 4s;
   }
+
+  .bg-cyber-grid {
+    background-image: 
+      linear-gradient(rgba(0, 210, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 210, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .bg-grid {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+    }
+    to {
+      text-shadow: 0 0 20px rgba(0, 210, 255, 0.8), 0 0 30px rgba(255, 0, 110, 0.5);
+    }
+  }
+
+  @keyframes reverse-spin {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
 }
