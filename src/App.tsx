@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/go-find-solutions">
         <Routes>
           <Route path="/" element={<Index />} />
 
