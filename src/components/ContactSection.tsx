@@ -96,7 +96,7 @@ const ContactSection = () => {
               </h3>
 
               <div className="space-y-6">
-                {contactInfo.map((item, index) => (
+                {contactInfo.map((item) => (
                   <a
                     key={item.label}
                     href={item.href}
@@ -122,7 +122,7 @@ const ContactSection = () => {
                 Follow Me
               </h3>
               <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
+                {socialLinks.map((social) => (
                   <a
                     key={social.label}
                     href={social.href}
